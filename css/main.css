@@ -154,6 +154,54 @@ section {
     display: block;
 }
 
+.congratulations .main-text {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.congratulations .main-text h1 {
+    font-size: 30px;
+}
+
+.congratulations .text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.congratulations .text h3 {
+    font-size: 25px;
+}
+
+.congratulations .wishes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    margin: 50px 0;
+}
+
+.congratulations .wishes .box {
+    border: 1px solid #023e7d;
+    box-shadow: 0 0 10px #023e7d;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.congratulations .wishes .box h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.congratulations .wishes .box p {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.congratulations .wishes .box p:last-child {
+    margin-bottom: 0;
+}
+
 .footer {
     background-color: #3a6ea5;
     display: flex;
